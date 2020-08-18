@@ -1,9 +1,12 @@
 <template>
-  <section class="section"></section>
+  <hero />
 </template>
 
 <script>
+import Hero from '~/components/Hero.vue'
+
 export default {
   name: 'HomePage',
+  components: { Hero },
 }
 </script>
