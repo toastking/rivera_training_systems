@@ -1,0 +1,24 @@
+{
+  "name": "rivera_training_systems",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt-ts",
+    "build": "nuxt-ts build",
+    "start": "nuxt-ts start",
+    "generate": "nuxt-ts generate"
+  },
+  "dependencies": {
+    "@nuxt/content": "^1.5.0",
+    "@nuxt/typescript-runtime": "^1.0.0",
+    "nuxt": "^2.14.0",
+    "nuxt-buefy": "^0.3.31"
+  },
+  "devDependencies": {
+    "@nuxt/types": "^2.14.0",
+    "@nuxt/typescript-build": "^2.0.2",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-prettier": "^3.1.4",
+    "prettier": "^2.0.5"
+  }
+}
