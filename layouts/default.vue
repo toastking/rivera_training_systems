@@ -2,11 +2,10 @@
   <div>
     <b-navbar type="is-primary" :shadow="true">
       <template slot="brand">
-        <b-navbar-item tag="router-link" :to="{ path: '/' }">
-          <img
-            src="~/assets/buefy.png"
-            alt="Lightweight UI components for Vue.js based on Bulma"
-          />
+        <b-navbar-item tag="router-link" :to="{ path: '/' }" class="is-size-3">
+          <span class="has-text-weight-bold is-italic">Rivera</span>
+          <span>&nbsp;</span>
+          <span>Training Systems</span>
         </b-navbar-item>
       </template>
       <template slot="end">

@@ -1,12 +1,12 @@
 <template>
   <section class="hero is-medium is-dark">
     <div class="hero-body">
-      <div class="container is-fluid">
+      <div class="container is-fullhd">
         <h1 class="title">
           Reach your goals
         </h1>
         <b-field>
-          <b-input placeholder="Email" rounded />
+          <b-input placeholder="Email" type="email" rounded />
           <p class="control">
             <b-button class="button is-info" rounded>
               Ask The Trainers
