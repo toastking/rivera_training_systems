@@ -1,25 +1,23 @@
 <template>
   <div>
-    <nav
-      class="navbar header has-shadow is-primary"
-      role="navigation"
-      aria-label="main navigation"
-    >
-      <div class="navbar-brand">
-        <a class="navbar-item" href="/">
-          <img src="~assets/buefy.png" alt="Buefy" height="28" />
-        </a>
+    <b-navbar type="is-primary" :shadow="true">
+      <template slot="brand">
+        <b-navbar-item tag="router-link" :to="{ path: '/' }">
+          <img
+            src="~/assets/buefy.png"
+            alt="Lightweight UI components for Vue.js based on Bulma"
+          />
+        </b-navbar-item>
+      </template>
+      <template slot="end">
+        <b-navbar-item>How We Work</b-navbar-item>
+        <b-navbar-item>Who We Are</b-navbar-item>
+        <b-navbar-item>Client Stories</b-navbar-item>
+      </template>
+    </b-navbar>
 
-        <div class="navbar-burger">
-          <span />
-          <span />
-          <span />
-        </div>
-      </div>
-    </nav>
-
-    <section class="main-content columns">
-      <div class="container column is-10">
+    <section class="main-content">
+      <div class="container">
         <nuxt />
       </div>
     </section>
