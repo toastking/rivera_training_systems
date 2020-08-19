@@ -16,9 +16,7 @@
     </b-navbar>
 
     <section class="main-content">
-      <div class="container is-fullhd">
-        <nuxt />
-      </div>
+      <nuxt />
     </section>
   </div>
 </template>
