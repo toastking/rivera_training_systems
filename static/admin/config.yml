@@ -6,14 +6,22 @@ media_folder: static/img
 public_folder: /img
 
 collections:
-  - name: 'bios'
-    label: 'Bios'
+  - name: 'pages'
+    label: 'Pages'
     format: 'json'
-    folder: 'content/bios'
-    create: true
-    editor:
-      preview: false
-    fields:
-      - { label: 'Name', name: 'name', widget: 'string' }
-      - { label: 'Bio', name: 'bio', widget: 'string' }
-      - { label: 'Headshot', name: 'headshot', widget: 'image' }
+    files:
+      - label: 'Landing Page'
+        name: 'landingpage'
+        file: 'content/pages/landingpage.json'
+        fields:
+          - label: 'Bios'
+            name: 'bios'
+            widget: 'list'
+            fields:
+              - { label: 'Name', name: 'name', widget: 'string' }
+              - { label: 'Bio', name: 'bio', widget: 'string' }
+              - { label: 'Headshot', name: 'headshot', widget: 'image' }
+          - label: 'Services'
+            name: 'services'
+            widget: 'list'
+            field: 'string'
