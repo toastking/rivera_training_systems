@@ -20,3 +20,19 @@ collections:
               widget: 'list',
               field: { label: 'Service', name: 'service', widget: 'string' },
             }
+          - {
+              label: 'Bios',
+              name: 'bios',
+              widget: 'list',
+              fields:
+                [
+                  { name: 'name', label: 'Name', widget: 'string' },
+                  {
+                    name: 'credentials',
+                    label: 'Credentials',
+                    widget: 'string',
+                  },
+                  { name: 'headshot', label: 'Head Shot', widget: 'image' },
+                  { name: 'bio', label: 'Bio', widget: 'text' },
+                ],
+            }
