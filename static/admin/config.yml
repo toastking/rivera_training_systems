@@ -14,14 +14,9 @@ collections:
         name: 'landingpage'
         file: 'content/pages/landingpage.json'
         fields:
-          - label: 'Bios'
-            name: 'bios'
-            widget: 'list'
-            fields:
-              - { label: 'Name', name: 'name', widget: 'string' }
-              - { label: 'Bio', name: 'bio', widget: 'string' }
-              - { label: 'Headshot', name: 'headshot', widget: 'image' }
-          - label: 'Services'
-            name: 'services'
-            widget: 'list'
-            field: 'string'
+          - {
+              label: 'Services',
+              name: 'services',
+              widget: 'list',
+              field: 'string',
+            }
