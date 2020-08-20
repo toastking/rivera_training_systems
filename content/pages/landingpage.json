@@ -10,5 +10,11 @@
       "bio": "Foo bar",
       "headshot": "/img/unnamed.jpg"
     }
+  ],
+  "testimonials": [
+    {
+      "name": "Matt",
+      "testimonial": "Kevin created programs for me that helped me get stronger. He taught me how to be a great weightlifter. My mobility has improved a lot as well!"
+    }
   ]
 }
