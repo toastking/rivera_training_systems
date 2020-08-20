@@ -1,1 +1,6 @@
-{}
+{
+  "services": [
+    "Personal Training",
+    "Custom Workout Programs"
+  ]
+}
