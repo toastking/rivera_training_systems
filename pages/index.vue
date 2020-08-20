@@ -4,6 +4,7 @@
     <how-we-work />
     <services :services="landingPage.services" />
     <bios :bios="landingPage.bios" />
+    <testimonials :testimonials="landingPage.testimonials" />
   </div>
 </template>
 
@@ -11,11 +12,13 @@
 import Hero from '~/components/Hero.vue';
 import HowWeWork from '~/components/HowWeWork.vue';
 import Services from '~/components/Services.vue';
+import Bios from '~/components/Bios.vue';
+import Testimonials from '~/components/Testimonials.vue';
 import { Context } from '@nuxt/types';
 
 export default {
   name: 'HomePage',
-  components: { Hero, HowWeWork, Services },
+  components: { Hero, HowWeWork, Services, Bios, Testimonials },
   async asyncData(context: Context) {
     const landingPage = await context.$content('pages', 'landingpage').fetch();
     return { landingPage };

@@ -9,8 +9,8 @@
         </h2>
       </div>
     </div>
-    <div class="columns">
-      <div class="column" v-for="bio of bios" :key="bio.name">
+    <div class="columns is-centered">
+      <div class="column is-narrow" v-for="bio of bios" :key="bio.name">
         <figure class="image image is-128x128">
           <img :src="bio.headshot" />
         </figure>
