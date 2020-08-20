@@ -18,5 +18,5 @@ collections:
               label: 'Services',
               name: 'services',
               widget: 'list',
-              field: 'string',
+              field: { label: 'Service', name: 'service', widget: 'string' },
             }
