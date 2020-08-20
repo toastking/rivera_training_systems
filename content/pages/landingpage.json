@@ -2,5 +2,13 @@
   "services": [
     "Personal Training",
     "Custom Workout Programs"
+  ],
+  "bios": [
+    {
+      "name": "Kevin",
+      "credentials": "MSCS",
+      "bio": "Foo bar",
+      "headshot": "/img/unnamed.jpg"
+    }
   ]
 }
