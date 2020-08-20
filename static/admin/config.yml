@@ -36,3 +36,13 @@ collections:
                   { name: 'bio', label: 'Bio', widget: 'text' },
                 ],
             }
+          - {
+              label: 'Testimonials',
+              name: 'testimonials',
+              widget: 'list',
+              fields:
+                [
+                  { name: 'name', label: 'Name', widget: 'string' },
+                  { name: 'testimonial', label: 'Testimonial', widget: 'text' },
+                ],
+            }
