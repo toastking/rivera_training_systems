@@ -8,10 +8,10 @@ public_folder: /img
 collections:
   - name: 'pages'
     label: 'Pages'
-    format: 'json'
     files:
       - label: 'Landing Page'
         name: 'landingpage'
+        format: 'json'
         file: 'content/pages/landingpage.json'
         fields:
           - {
