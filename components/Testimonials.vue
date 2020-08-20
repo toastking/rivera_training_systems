@@ -1,5 +1,5 @@
 <template>
-  <section class="section has-background-light">
+  <section class="section has-background-light" id="testimonials">
     <div class="columns">
       <div class="column is-full">
         <h2

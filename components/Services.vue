@@ -1,5 +1,5 @@
 <template>
-  <section class="section has-background-blue-grey">
+  <section class="section has-background-blue-grey" id="services">
     <div class="columns">
       <div class="column is-full">
         <h2
@@ -21,7 +21,7 @@
 </template>
 
 <script lang="ts">
-import Vue, { PropType } from 'vue'
+import Vue, { PropType } from 'vue';
 
 export default Vue.extend({
   props: {
@@ -30,5 +30,5 @@ export default Vue.extend({
       required: true,
     },
   },
-})
+});
 </script>

@@ -1,5 +1,5 @@
 <template>
-  <section class="section">
+  <section class="section" id="how-we-work">
     <div class="columns has-background-white">
       <div class="column is-full">
         <h2
@@ -54,6 +54,6 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
-export default Vue.extend({})
+import Vue from 'vue';
+export default Vue.extend({});
 </script>

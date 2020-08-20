@@ -1,5 +1,5 @@
 <template>
-  <section class="section has-background-white">
+  <section class="section has-background-white" id="bios">
     <div class="columns">
       <div class="column is-full">
         <h2
