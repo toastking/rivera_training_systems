@@ -4,8 +4,12 @@
 // Set your colors
 $primary: #104477;
 $primary-invert: findColorInvert($primary);
+
 $info: #fd7251;
 $info-invert: findColorInvert($info);
+
+$blue-grey: #718599;
+$blue-grey-invert: findColorInvert($blue-grey);
 
 $colors: (
   'white': (
@@ -43,6 +47,10 @@ $colors: (
   'danger': (
     $danger,
     $danger-invert,
+  ),
+  'blue-grey': (
+    $blue-grey,
+    $blue-grey-invert,
   ),
 );
 
