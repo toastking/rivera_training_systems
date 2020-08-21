@@ -2,7 +2,7 @@
   <div>
     <b-navbar type="is-primary">
       <template slot="brand">
-        <b-navbar-item tag="router-link" :to="{ path: '/' }" class="is-size-3">
+        <b-navbar-item tag="router-link" :to="{ path: '/' }">
           <span class="has-text-weight-bold is-italic">Rivera</span>
           <span>&nbsp;</span>
           <span>Training Systems</span>
