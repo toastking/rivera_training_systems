@@ -20,6 +20,6 @@
 
 <script lang="ts">
 //The hero banner for the top of the landing page
-import Vue from 'vue'
-export default Vue.extend({})
+import Vue from 'vue';
+export default Vue.extend({});
 </script>

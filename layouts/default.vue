@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-navbar type="is-primary" :shadow="true">
+    <b-navbar type="is-primary">
       <template slot="brand">
         <b-navbar-item tag="router-link" :to="{ path: '/' }" class="is-size-3">
           <span class="has-text-weight-bold is-italic">Rivera</span>
