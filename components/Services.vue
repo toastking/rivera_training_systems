@@ -10,11 +10,7 @@
       </div>
     </div>
     <div class="columns has-background-white is-centered">
-      <div
-        v-for="service of services"
-        :key="service.service"
-        class="column is-narrow"
-      >
+      <div v-for="service of services" :key="service.service" class="column">
         <figure class="image is-4by3">
           <img :src="service.image" />
         </figure>
