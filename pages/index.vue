@@ -1,7 +1,6 @@
 <template>
   <div>
     <hero />
-    <how-we-work />
     <services :services="landingPage.services" />
     <bios :bios="landingPage.bios" />
     <testimonials :testimonials="landingPage.testimonials" />
@@ -12,7 +11,6 @@
 
 <script lang="ts">
 import Hero from '~/components/Hero.vue';
-import HowWeWork from '~/components/HowWeWork.vue';
 import Services from '~/components/Services.vue';
 import Bios from '~/components/Bios.vue';
 import Testimonials from '~/components/Testimonials.vue';
@@ -24,7 +22,6 @@ export default {
   name: 'HomePage',
   components: {
     Hero,
-    HowWeWork,
     Services,
     Bios,
     Testimonials,
