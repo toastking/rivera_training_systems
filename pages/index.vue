@@ -2,6 +2,7 @@
   <div>
     <hero />
     <services :services="landingPage.services" />
+    <mission-statement :mission="landingPage.mission" />
     <bios :bios="landingPage.bios" />
     <testimonials :testimonials="landingPage.testimonials" />
     <contact />
@@ -16,6 +17,8 @@ import Bios from '~/components/Bios.vue';
 import Testimonials from '~/components/Testimonials.vue';
 import Contact from '~/components/Contact.vue';
 import SiteFooter from '~/components/SiteFooter.vue';
+import MissionStatement from '~/components/MissionStatement.vue';
+
 import { Context } from '@nuxt/types';
 
 export default {
@@ -27,6 +30,7 @@ export default {
     Testimonials,
     Contact,
     SiteFooter,
+    MissionStatement,
   },
   async asyncData(context: Context) {
     const landingPage = await context.$content('pages', 'landingpage').fetch();
