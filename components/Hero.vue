@@ -23,7 +23,7 @@
               rounded
             />
             <p class="control">
-              <b-button type="submit" class="button is-info" rounded>
+              <b-button native-type="submit" class="button is-info" rounded>
                 Ask The Trainers
               </b-button>
             </p>
