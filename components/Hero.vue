@@ -16,7 +16,13 @@
         >
           <input type="hidden" name="form-name" value="emails" />
           <b-field>
-            <b-input placeholder="example@example.com" type="email" rounded />
+            <b-input
+              id="email"
+              name="email"
+              placeholder="example@example.com"
+              type="email"
+              rounded
+            />
             <p class="control">
               <b-button native-type="submit" class="button is-info" rounded>
                 Ask The Trainers
