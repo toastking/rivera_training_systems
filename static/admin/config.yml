@@ -5,6 +5,8 @@ backend:
 media_folder: static/img
 public_folder: /img
 
+site_url: https://riveratrainingsystems.netlify.app/
+
 collections:
   - name: 'pages'
     label: 'Pages'
@@ -13,6 +15,7 @@ collections:
         name: 'landingpage'
         format: 'json'
         file: 'content/pages/landingpage.json'
+        preview_path: '/'
         fields:
           - {
               label: 'Services',
