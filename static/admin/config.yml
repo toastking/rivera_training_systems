@@ -50,3 +50,4 @@ collections:
                   { name: 'testimonial', label: 'Testimonial', widget: 'text' },
                 ],
             }
+          - { label: 'Mission Statement', name: 'mission', widget: 'text' }
