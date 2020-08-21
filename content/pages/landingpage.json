@@ -12,5 +12,19 @@
       "name": "Matt",
       "testimonial": "Kevin created programs for me that helped me get stronger. He taught me how to be a great weightlifter. My mobility has improved a lot as well!"
     }
+  ],
+  "services": [
+    {
+      "service": "Private one on one training",
+      "image": "/img/victor-freitas-kkywwpurqbe-unsplash.jpg"
+    },
+    {
+      "service": "Small Group Sessions",
+      "image": "/img/unnamed-1-.jpg"
+    },
+    {
+      "service": "Remote Coaching",
+      "image": "/img/unnamed.jpg"
+    }
   ]
 }
