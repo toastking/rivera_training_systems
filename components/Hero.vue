@@ -23,12 +23,7 @@
               rounded
             />
             <p class="control">
-              <b-button
-                type="submit"
-                class="button is-info"
-                rounded
-                @click="askButtonClick()"
-              >
+              <b-button type="submit" class="button is-info" rounded>
                 Ask The Trainers
               </b-button>
             </p>
