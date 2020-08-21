@@ -1,8 +1,5 @@
 {
-  "services": [
-    "Personal Training",
-    "Custom Workout Programs"
-  ],
+  "services": [],
   "bios": [
     {
       "name": "Kevin",
