@@ -1,5 +1,5 @@
 <template>
-  <section class="section has-background-blue-grey">
+  <section class="section has-background-blue-grey" id="mission">
     <div class="columns">
       <div class="column is-full">
         <h2
