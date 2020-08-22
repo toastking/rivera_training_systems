@@ -10,7 +10,7 @@
           </h2>
         </div>
       </div>
-      <div class="columns is-centered">
+      <div class="columns is-centered is-5 is-variable">
         <div class="column" v-for="bio of bios" :key="bio.name">
           <figure class="image image is-square">
             <img :src="bio.headshot" />
