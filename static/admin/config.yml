@@ -19,6 +19,7 @@ collections:
         file: 'content/pages/landingpage.json'
         preview_path: '/'
         fields:
+          - { label: 'Hero Video', name: 'herovideo', widget: 'file' }
           - {
               label: 'Services',
               name: 'services',
