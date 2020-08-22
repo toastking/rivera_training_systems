@@ -1,5 +1,8 @@
 <template>
-  <section class="hero is-fullheight-with-navbar is-dark video">
+  <section
+    id="landing-hero"
+    class="hero is-fullheight-with-navbar is-dark is-mobile video"
+  >
     <div class="hero-video">
       <video playsinline autoplay muted loop>
         <source :src="herovideo" type="video/mp4" />
@@ -70,3 +73,17 @@ export default Vue.extend({
   },
 });
 </script>
+
+<style lang="scss">
+@import '~bulma/sass/utilities/_all';
+
+#landing-hero {
+  @include until($tablet) {
+    background-image: url('~assets/hero-image.jpeg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+}
+</style>

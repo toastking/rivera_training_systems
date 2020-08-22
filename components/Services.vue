@@ -1,7 +1,7 @@
 <template>
   <section class="section" id="how-we-work">
     <div class="columns has-background-white">
-      <div class="column is-full">
+      <div id="services-header" class="column is-full">
         <h2
           class="is-uppercase is-italic has-text-centered has-text-primary title is-2"
         >
@@ -42,3 +42,9 @@ export default Vue.extend({
   },
 });
 </script>
+
+<style lang="scss" scoped>
+#services-header {
+  margin-top: 2em;
+}
+</style>
