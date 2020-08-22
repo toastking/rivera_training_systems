@@ -11,7 +11,7 @@
           Reach your goals
         </h1>
         <h2 class="subtitle">
-          Put down your email and we'll reach out!
+          Give us your email and we'll reach out!
         </h2>
         <form
           name="emails"
@@ -24,13 +24,19 @@
             <b-input
               id="email"
               name="email"
-              placeholder="example@example.com"
+              placeholder="Email"
               type="email"
+              size="is-large"
               rounded
             />
             <p class="control">
-              <b-button native-type="submit" class="button is-info" rounded>
-                Ask The Trainers
+              <b-button
+                native-type="submit"
+                class="button is-info"
+                size="is-large"
+                rounded
+              >
+                Submit
               </b-button>
             </p>
           </b-field>
