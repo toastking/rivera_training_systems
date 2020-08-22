@@ -1,30 +1,32 @@
 <template>
   <section class="section has-background-white" id="bios">
-    <div class="columns">
-      <div class="column is-full">
-        <h2
-          class="is-uppercase is-italic has-text-centered has-text-primary title is-2"
-        >
-          Who We Are
-        </h2>
+    <div class="container">
+      <div class="columns">
+        <div class="column is-full">
+          <h2
+            class="is-uppercase is-italic has-text-centered has-text-primary title is-2"
+          >
+            Who We Are
+          </h2>
+        </div>
       </div>
-    </div>
-    <div class="columns is-centered">
-      <div class="column is-narrow" v-for="bio of bios" :key="bio.name">
-        <figure class="image image is-128x128">
-          <img :src="bio.headshot" />
-        </figure>
-        <h3 class="title is-3">
-          <span class="has-text-weight-semibold is-uppercase">
-            {{ bio.name }}
-          </span>
-          <span class="has-text-weight-light is-italic">
-            {{ bio.credentials }}
-          </span>
-        </h3>
-        <p>
-          {{ bio.bio }}
-        </p>
+      <div class="columns is-centered">
+        <div class="column" v-for="bio of bios" :key="bio.name">
+          <figure class="image image is-square">
+            <img :src="bio.headshot" />
+          </figure>
+          <h3 class="title is-3">
+            <span class="has-text-weight-semibold is-uppercase">
+              {{ bio.name }}
+            </span>
+            <span class="has-text-weight-light is-italic">
+              {{ bio.credentials }}
+            </span>
+          </h3>
+          <p class="has-text-left is-size-6">
+            {{ bio.bio }}
+          </p>
+        </div>
       </div>
     </div>
   </section>
