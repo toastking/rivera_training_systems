@@ -10,11 +10,11 @@
     </div>
     <div class="hero-body">
       <div class="container is-fluid">
-        <h1 class="title is-2">
+        <h1 class="title is-1 rivera-hero-title">
           Reach your goals
         </h1>
-        <h2 class="subtitle">
-          Give us your email and we'll reach out!
+        <h2 class="subtitle has-shadow rivera-hero-subtitle">
+          Contact us for more information
         </h2>
         <form
           name="emails"
@@ -85,5 +85,10 @@ export default Vue.extend({
     background-attachment: fixed;
     background-size: cover;
   }
+}
+
+.rivera-hero-title,
+.rivera-hero-subtitle {
+  text-shadow: 3px 3px black;
 }
 </style>

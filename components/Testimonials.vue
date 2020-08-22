@@ -9,16 +9,21 @@
         </h2>
       </div>
     </div>
-    <div class="tile is-ancestor">
+    <div class="columns is-multiline">
       <div
         v-for="testimonial of testimonials"
         :key="testimonial.name"
-        class="tile"
+        class="column is-one-quarter"
       >
         <div class="card">
           <div class="card-content">
-            <p class="title">"{{ testimonial.testimonial }}"</p>
-            <p v-if="testimonial.name !== ''" class="subtitle">
+            <p class="is-size-5 has-text-weight-medium">
+              "{{ testimonial.testimonial }}"
+            </p>
+            <p
+              class="is-italic has-text-weight-light"
+              v-if="testimonial.name !== ''"
+            >
               - {{ testimonial.name }}
             </p>
           </div>

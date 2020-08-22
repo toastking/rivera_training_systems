@@ -11,7 +11,9 @@
     </div>
     <div class="columns is-centered">
       <div class="column is-full">
-        <p class="has-text-white is-size-2 has-text-weight-semibold">
+        <p
+          class="has-text-white is-size-3 has-text-weight-medium has-text-centered"
+        >
           "{{ mission }}"
         </p>
       </div>
