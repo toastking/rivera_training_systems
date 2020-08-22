@@ -1,6 +1,6 @@
 <template>
   <div>
-    <hero />
+    <hero :herovideo="landingPage.herovideo" />
     <services :services="landingPage.services" />
     <mission-statement :mission="landingPage.mission" />
     <bios :bios="landingPage.bios" />

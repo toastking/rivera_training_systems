@@ -1,7 +1,12 @@
 <template>
-  <section class="hero is-medium is-dark">
+  <section class="hero is-large is-dark video">
+    <div class="hero-video">
+      <video playsinline autoplay muted loop>
+        <source :src="herovideo" type="video/mp4" />
+      </video>
+    </div>
     <div class="hero-body">
-      <div class="container is-fullhd">
+      <div class="container">
         <h1 class="title is-2">
           Reach your goals
         </h1>
@@ -39,6 +44,9 @@
 //The hero banner for the top of the landing page
 import Vue from 'vue';
 export default Vue.extend({
+  props: {
+    herovideo: { type: String, required: true },
+  },
   data() {
     return {
       email: '',
@@ -55,3 +63,9 @@ export default Vue.extend({
   },
 });
 </script>
+
+<style lang="scss">
+.hero-video video {
+  object-fit: cover;
+}
+</style>
