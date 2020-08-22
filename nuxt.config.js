@@ -14,7 +14,7 @@ export default {
    ** See https://nuxtjs.org/api/configuration-head
    */
   head: {
-    title: process.env.npm_package_name || 'Rivera Training Systems',
+    title: 'Rivera Training Systems',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -22,8 +22,7 @@ export default {
         hid: 'description',
         name: 'description',
         content:
-          process.env.npm_package_description ||
-          'Rivera Training Systems specialiazes in training athletes and anyone who wants to be more fit and healthier.',
+          'Rivera Training Systems specialiazes in training athletes and fitness minded people to reach peak performance.',
       },
     ],
     link: [
