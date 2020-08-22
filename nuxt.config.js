@@ -33,6 +33,9 @@ export default {
           'https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap',
       },
     ],
+    bodyAttrs: {
+      class: ['has-navbar-fixed-top'],
+    },
   },
   /*
    ** Global CSS

@@ -1,10 +1,14 @@
 <template>
   <b-navbar type="is-primary is-fixed-top">
     <template slot="brand">
-      <b-navbar-item tag="router-link" :to="{ path: '/' }">
-        <span class="has-text-weight-bold is-italic">Rivera</span>
-        <span>&nbsp;</span>
-        <span>Training Systems</span>
+      <b-navbar-item v-scroll-to="'#landing-hero'">
+        <span
+          class="has-text-weight-bold is-italic is-size-2-fullhd is-size-3-tablet"
+        >
+          Rivera
+        </span>
+        <span class="is-size-2-fullhd is-size-3-tablet">&nbsp;</span>
+        <span class="is-size-2-fullhd is-size-3-tablet">Training Systems</span>
       </b-navbar-item>
     </template>
     <template slot="end">
