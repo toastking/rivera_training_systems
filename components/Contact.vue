@@ -5,7 +5,7 @@
         <h3 class="title is-4">
           Contact us
         </h3>
-        <address class="is-size-4">
+        <address class="is-size-4-tablet">
           <a href="mailto:riveratrainingsystems@gmail.com">
             riveratrainingsystems@gmail.com
           </a>

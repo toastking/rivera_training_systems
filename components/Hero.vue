@@ -29,14 +29,14 @@
               name="email"
               placeholder="Email"
               type="email"
-              size="is-large"
+              size="is-medium"
               rounded
             />
             <p class="control">
               <b-button
                 native-type="submit"
                 class="button is-info"
-                size="is-large"
+                size="is-medium"
                 rounded
               >
                 Submit
@@ -80,15 +80,14 @@ export default Vue.extend({
 #landing-hero {
   @include until($tablet) {
     background-image: url('~assets/hero-image.jpeg');
-    background-position: center center;
+    background-position: top right;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-size: cover;
   }
 }
 
 .rivera-hero-title,
 .rivera-hero-subtitle {
-  text-shadow: 3px 3px black;
+  text-shadow: 2px 2px black;
 }
 </style>
