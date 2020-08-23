@@ -11,7 +11,7 @@
     </div>
     <div class="columns has-background-white is-centered">
       <div v-for="service of services" :key="service.service" class="column">
-        <figure class="image is-4by3">
+        <figure class="image is-16by9">
           <img :src="service.image" />
         </figure>
         <p
