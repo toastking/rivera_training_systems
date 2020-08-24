@@ -1,2 +1,13 @@
 content/**/*.png filter=lfs diff=lfs merge=lfs -text
 content/**/*.jpg filter=lfs diff=lfs merge=lfs -text
+static/img/a037bd48-10e5-4c27-b977-e80d7075fcd9_1_201_a.jpeg filter=lfs diff=lfs merge=lfs -text
+static/img/kevin-on-bike-blurred.jpg filter=lfs diff=lfs merge=lfs -text
+static/img/kevin-on-bike.jpg filter=lfs diff=lfs merge=lfs -text
+static/img/victor-freitas-kkywwpurqbe-unsplash.jpg filter=lfs diff=lfs merge=lfs -text
+static/img/74526767-2974-49a1-9b34-614c6eb7781a_1_201_a.jpeg filter=lfs diff=lfs merge=lfs -text
+static/img/8a5df84b-c705-4207-9a36-cfd37882035e_1_201_a.jpeg filter=lfs diff=lfs merge=lfs -text
+static/img/rivera-training-hero-movie.mp4 filter=lfs diff=lfs merge=lfs -text
+static/img/unnamed-1-.jpg filter=lfs diff=lfs merge=lfs -text
+static/img/unnamed.jpg filter=lfs diff=lfs merge=lfs -text
+static/img/8f904f88-627a-480b-87a1-f39811dc5b21.jpeg filter=lfs diff=lfs merge=lfs -text
+static/img/afec9e55-66a5-4d36-8ef7-c80996cf5b37_1_201_a.jpeg filter=lfs diff=lfs merge=lfs -text
