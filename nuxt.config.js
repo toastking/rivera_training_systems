@@ -54,7 +54,15 @@ export default {
   /*
    ** Nuxt.js dev-modules
    */
-  buildModules: ['@nuxt/typescript-build'],
+  buildModules: [
+    '@nuxt/typescript-build',
+    [
+      '@nuxtjs/google-analytics',
+      {
+        id: 'UA-176152496-1',
+      },
+    ],
+  ],
   /*
    ** Nuxt.js modules
    */
