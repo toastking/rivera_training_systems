@@ -4,12 +4,12 @@
       "name": "Kevin Rivera",
       "credentials": "MS, CSCS, CES",
       "bio": "Kevin first became interested in strength and conditioning while playing football and throwing shot put in high school. Fascinated by the science of building a better athlete, Kevin accepted an offer to throw shot put at Franklin Pierce University where he went on to major in Health Sciences with a concentration in Exercise Science. In 2017, he enrolled at Long Island University Brooklyn where he earned his masters in Exercise Science with a specialty in Strength and Conditioning and Sports Nutrition. Throughout his education Kevin has had the opportunity to coach athletes at the collegiate level across a variety of sports, working to improve conditioning and optimize performance. Most recently, Kevin worked with Team USA Field Hockey at their national training center to prepare their athletes for international competition.  He is currently a member of the Detroit Tigers Organization as a seasonal strength coach. Kevin believes that strength and conditioning plays a critical role in athletic development and can safely be implemented at any age. He works hard to help all athletes realize their potential while boosting self confidence and promoting an overall healthy lifestyle.",
-      "headshot": "/img/a037bd48-10e5-4c27-b977-e80d7075fcd9_1_201_a.jpeg"
+      "headshot": "/img/kevin_headshot_web.jpg"
     },
     {
       "name": "Tony Sansotta",
       "credentials": "DPT",
-      "headshot": "/img/afec9e55-66a5-4d36-8ef7-c80996cf5b37_1_201_a.jpeg",
+      "headshot": "/img/tony_headshot_web.jpg",
       "bio": "Tony completed his undergraduate studies at Binghamton University where he had his first experience in Sports Medicine. Working in the Athletic Training room he became interested in movement as a means of medicine and later enrolled in Stony Brook University to earn his Doctorate in Physical Therapy. While at Stony Brook, he gained valuable experience interning at the Athletic Performance Center working with Division I baseball, softball, lacrosse and basketball to improve their strength and conditioning. Tony has valuable experience with the rehabilitation of athletes of all ages and skill levels. He works with athletes to prevent future injury, providing them with an avenue to return to sports. Tony believes that each individual’s strengths and weaknesses should be considered when developing a training plan in order to create a well rounded athlete. "
     }
   ],
@@ -22,15 +22,15 @@
   "services": [
     {
       "service": "Private one on one training",
-      "image": "/img/74526767-2974-49a1-9b34-614c6eb7781a_1_201_a.jpeg"
+      "image": "/img/kevin_deadlift_web.jpg"
     },
     {
       "service": "Small Group Sessions",
-      "image": "/img/8f904f88-627a-480b-87a1-f39811dc5b21.jpeg"
+      "image": "/img/tony_kettlebell_web.jpg"
     },
     {
       "service": "Remote Coaching",
-      "image": "/img/kevin-on-bike-blurred.jpg"
+      "image": "/img/kevin_on_bike_web.jpg"
     }
   ],
   "mission": "Develop well rounded athletes through the implementation of uniquely designed training programs and promotion of health and wellness practices.",
