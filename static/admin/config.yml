@@ -28,6 +28,11 @@ collections:
                 [
                   { label: 'Service', name: 'service', widget: 'string' },
                   { name: 'image', label: 'Image', widget: 'image' },
+                  {
+                    label: 'Image Alt Text',
+                    name: 'image_alt',
+                    widget: 'string',
+                  },
                 ],
             }
           - {
