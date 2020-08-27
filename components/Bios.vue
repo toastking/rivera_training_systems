@@ -13,7 +13,7 @@
       <div class="columns is-centered is-5 is-variable">
         <div class="column" v-for="bio of bios" :key="bio.name">
           <figure class="image image is-square">
-            <img :src="bio.headshot" />
+            <img :src="bio.headshot" :alt="`Headshot for ${bio.name}`" />
           </figure>
           <h3 class="title is-3">
             <span class="has-text-weight-semibold is-uppercase">
