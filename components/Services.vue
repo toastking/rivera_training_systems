@@ -12,7 +12,7 @@
     <div class="columns has-background-white is-centered">
       <div v-for="service of services" :key="service.service" class="column">
         <figure class="image is-16by9">
-          <img :src="service.image" />
+          <img :src="service.image" :alt="service.image_alt" />
         </figure>
         <p
           class="is-uppercase is-italic has-text-centered has-text-primary is-size-4 has-text-weight-semibold"
@@ -31,6 +31,7 @@ import Vue, { PropType } from 'vue';
 interface Service {
   service: string;
   image: string;
+  image_alt: string;
 }
 
 export default Vue.extend({
