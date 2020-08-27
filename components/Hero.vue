@@ -79,7 +79,7 @@ export default Vue.extend({
 
 #landing-hero {
   @include until($tablet) {
-    background-image: url('~assets/hero-image.jpeg');
+    background-image: url('~assets/hero_image_web.jpg');
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
