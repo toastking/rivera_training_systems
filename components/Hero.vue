@@ -23,6 +23,9 @@
           data-netlify-honeypot="bot-field"
         >
           <input type="hidden" name="form-name" value="emails" />
+
+          <!-- put the label outside the email input because putting it inside messes up the css for some reason -->
+          <label id="email_label">Email</label>
           <b-field>
             <b-input
               id="email"
@@ -30,6 +33,7 @@
               placeholder="Email"
               type="email"
               size="is-medium"
+              aria-labelledby="email_label"
               rounded
             />
             <p class="control">
@@ -89,5 +93,9 @@ export default Vue.extend({
 .rivera-hero-title,
 .rivera-hero-subtitle {
   text-shadow: 2px 2px black;
+}
+
+#email_label {
+  display: none;
 }
 </style>

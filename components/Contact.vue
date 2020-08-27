@@ -18,7 +18,7 @@
               class="button is-dark"
               href="https://www.instagram.com/riveratrainingsystems/"
             >
-              <b-icon icon="instagram"></b-icon>
+              <b-icon icon="instagram">Instagram</b-icon>
             </a>
           </div>
         </div>
