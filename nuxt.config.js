@@ -15,6 +15,9 @@ export default {
    */
   head: {
     title: 'Rivera Training Systems',
+    htmlAttrs: {
+      lang: 'en',
+    },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -28,9 +31,11 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       {
-        rel: 'stylesheet',
+        rel: 'preload',
         href:
           'https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap',
+        as: 'style',
+        onload: "this.onload=null;this.rel='stylesheet'",
       },
     ],
     bodyAttrs: {
