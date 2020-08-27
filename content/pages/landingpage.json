@@ -22,15 +22,18 @@
   "services": [
     {
       "service": "Private one on one training",
-      "image": "/img/kevin_deadlift_web.jpg"
+      "image": "/img/kevin_deadlift_web.jpg",
+      "image_alt": "One of our trainers performing a barbell deadlift workout"
     },
     {
       "service": "Small Group Sessions",
-      "image": "/img/tony_kettlebell_web.jpg"
+      "image": "/img/tony_kettlebell_web.jpg",
+      "image_alt": "One of our trainers performing a kettlebell swing workout"
     },
     {
       "service": "Remote Coaching",
-      "image": "/img/kevin_on_bike_web.jpg"
+      "image": "/img/kevin_on_bike_web.jpg",
+      "image_alt": "One of our trainers riding on an exercise bike in our gym"
     }
   ],
   "mission": "Develop well rounded athletes through the implementation of uniquely designed training programs and promotion of health and wellness practices.",
