@@ -77,6 +77,7 @@ export default {
     // Doc: https://github.com/nuxt/content
     '@nuxt/content',
     'vue-scrollto/nuxt',
+    '@nuxtjs/sitemap',
   ],
   /*
    ** Content module configuration
@@ -88,4 +89,10 @@ export default {
    ** See https://nuxtjs.org/api/configuration-build/
    */
   build: {},
+  /* Sitemap module config */
+  sitemap: {
+    hostname: 'https://riveratraining.com',
+    gzip: true,
+    routes: ['/'],
+  },
 };
